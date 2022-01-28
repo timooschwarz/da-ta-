@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Cetra";
+  src: url(fonts/Cera\ Pro\ Regular.otf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url(fonts/Cera\ Pro\ Bold.otf);
+  font-style: italic;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+
+@font-face {
+  font-family: "BoldIt";
+  src: url(fonts/Cera\ Pro\ Bold\ Italic.otf);
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #000000;
+}
+
+body {
+  background-color: rgb(19, 25, 31);
+  font-size: 2rem;
+}
+
+header {
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 15vh;
+  align-items: center;
+}
+
+#background {
+  display: block;
+  text-align: left;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 90vh;
+  background-size: 100%;
+  background-position: 50%;
+  filter: brightness(100%);
+  background: linear-gradient(to bottom, transparent, rgb(19, 25, 31)),
+    url("images/iann-dior-jh-1920x1080.jpg");
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+  align-items: center;
+  font-size: 18px;
+  font-family: "Bold";
+  color: #000000;
+  margin: 0;
+  font-weight: 700;
+  user-select: none;
+}
+
+#logo {
+  height: 2.7vh;
+}
+
+#left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+
+#right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+
+#download-button {
+  background-color: #34295e;
+  color: white;
+  padding: 15px 40px;
+  font-size: 16px;
+  text-decoration-line: none;
+  border-radius: 100px;
+  font-family: "Bold";
+  overflow-wrap: normal;
+  font-weight: 700;
+}
+
+.test {
+  color: rgb(247, 244, 244);
+}

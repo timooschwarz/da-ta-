@@ -1,0 +1,369 @@
+@font-face {
+  font-family: "Meme";
+  src: url(fonts/Cera\ Pro\ Regular.otf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url(fonts/Cera\ Pro\ Bold.otf);
+  font-style: italic;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+
+@font-face {
+  font-family: "BoldIt";
+  src: url(fonts/Cera\ Pro\ Bold\ Italic.otf);
+  font-style: italic;
+}
+
+body {
+  background-color: rgb(19, 25, 31);
+  display: grid;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  display: block;
+  text-align: left;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 90vh;
+  background-size: cover;
+  background-position: 50%;
+  filter: brightness(100%);
+  background: linear-gradient(to bottom, transparent, rgb(19, 25, 31)),
+    url("images/iann-dior-jh-1920x1080.jpg");
+}
+
+.wrapper {
+  margin: 0 401px;
+  width: 1000px;
+  padding: 0 45px;
+}
+
+.heading1 {
+  font-size: 120px;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  padding-top: 2.5em;
+  font-weight: 9000;
+  font-family: "Bold";
+}
+
+.logo {
+  width: 5%;
+  height: 20;
+  object-fit: cover;
+  bottom: 95px;
+  user-select: none;
+  position: absolute;
+  top: 6.75%;
+  right: 78%;
+}
+
+.heading {
+  color: #34295e;
+  font-family: "Meme";
+  font-size: 120px;
+  font-style: italic;
+  font-weight: 900px;
+  text-align: center;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  font-weight: bold;
+}
+
+.title {
+  font-family: "BoldIt";
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+  position: absolute;
+  top: 125%;
+}
+
+.Two-title {
+  font-family: "Bold";
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+  position: absolute;
+  top: 131%;
+}
+
+.text {
+  color: rgb(247, 244, 244);
+  display: block;
+  font-family: "Meme";
+  font-size: 16px;
+  font-weight: 400;
+  height: 160px;
+  line-height: 32px;
+  margin-bottom: 48px;
+  width: 500px;
+  text-align: left;
+  position: absolute;
+  top: 140%;
+}
+
+ul {
+  padding-left: 510px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  line-height: 9em;
+  padding-right: 80px;
+  user-select: none;
+}
+
+ul li a:hover {
+  color: #34295e;
+  user-select: none;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Bold";
+  color: rgb(0, 0, 0);
+  margin: 0;
+  font-weight: 700;
+  user-select: none;
+}
+
+.download-btn {
+  background-color: #34295e;
+  color: white;
+  padding: 15px 40px;
+  font-size: 16px;
+  text-decoration-line: none;
+  border-radius: 100px;
+  font-family: "Bold";
+  top: 5%;
+  right: 17%;
+  overflow-wrap: normal;
+  position: absolute;
+  font-weight: 700;
+}
+
+.download-btnIOS {
+  background-color: #34295e;
+  color: white;
+  padding: 15px 40px;
+  font-size: 15px;
+  text-decoration-line: none;
+  border-radius: 100px;
+  font-family: "Bold";
+  top: 80%;
+  right: 53%;
+  overflow-wrap: normal;
+  position: absolute;
+  font-weight: 700;
+}
+
+.download-btnAndroid {
+  background-color: #34295e;
+  color: white;
+  padding: 15px 40px;
+  font-size: 15px;
+  text-decoration-line: none;
+  border-radius: 100px;
+  font-family: "Bold";
+  top: 80%;
+  right: 37%;
+  overflow-wrap: normal;
+  position: absolute;
+  font-weight: 700;
+}
+
+.underheading {
+  display: block;
+  font-size: 24px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-family: "Bold";
+}
+
+.img-1 {
+  height: 700px;
+  position: absolute;
+  right: 30%;
+  top: 105%;
+  user-select: none;
+}
+
+.text-2 {
+  font-family: "Bold";
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+  position: absolute;
+  top: 195%;
+  right: 40.5%;
+  margin-bottom: 32px;
+}
+
+.text-2-1 {
+  font-family: "Bold";
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+  position: absolute;
+  top: 200%;
+  right: 48%;
+  margin-bottom: 32px;
+}
+
+.img-2 {
+  height: 600px;
+  position: absolute;
+  right: 60%;
+  top: 185%;
+  user-select: none;
+}
+
+#container {
+  position: absolute;
+  top: 205%;
+  right: 35%;
+  margin-bottom: 24px;
+  line-height: 2;
+}
+
+.number-text {
+  color: rgb(247, 244, 244);
+  font-family: "Bold";
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+#discover {
+  position: absolute;
+  top: 280%;
+  right: 38%;
+  margin-bottom: 1px;
+  line-height: 1.5;
+}
+
+.onlyheading {
+  color: #34295e;
+  font-family: "BoldIt";
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.img-3 {
+  height: 600px;
+  position: absolute;
+  top: 300%;
+  right: 45%;
+  user-select: none;
+}
+
+.box {
+  position: relative;
+  width: 1000px;
+  height: 250px;
+  top: 3000px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  border-radius: 30px;
+  background: rgb(19, 25, 31);
+  font-family: "Meme";
+}
+
+.box:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: rgb(19, 25, 31);
+  z-index: -1;
+  border-radius: 30px;
+}
+
+.box:after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: rgb(19, 25, 31);
+  z-index: -2;
+  filter: blur(10px);
+  border-radius: 30px;
+}
+
+.box:before,
+.box:after {
+  background: linear-gradient(235deg, #ffffff, #34295e, #6617cc);
+}
+
+.content-box {
+  font-family: "Bold";
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+  position: relative;
+  top: 10%;
+  left: 30px;
+  line-height: 1.5;
+}
+
+.content-box-text {
+  font-family: "Bold";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  color: white;
+  position: relative;
+  top: -53%;
+  left: 450px;
+  line-height: 1.5;
+}
+
+.download-box {
+  background-color: #34295e;
+  color: white;
+  padding: 15px 40px;
+  font-size: 15px;
+  text-decoration-line: none;
+  border-radius: 100px;
+  font-family: "Bold";
+  top: -105%;
+  right: -740px;
+  overflow-wrap: normal;
+  position: relative;
+  font-weight: 700;
+}
